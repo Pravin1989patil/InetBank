@@ -1,9 +1,7 @@
 package com.inetbank.base;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +15,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
 import com.inetbank.utilities.ReadConfig;
 import io.github.bonigarcia.wdm.WebDriverManager;
  
@@ -33,8 +30,6 @@ public class BaseClass {
 	{
 		logger=LogManager.getLogger(BaseClass.class);
 		config= new ReadConfig();
-		
-		
 	}
 	
 	@Parameters("browser")

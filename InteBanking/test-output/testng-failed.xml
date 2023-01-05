@@ -7,14 +7,14 @@
   <test thread-count="5" name="Regression Testing(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.inetbank.testCases.TC_LoginTest">
+      <class name="com.inetbank.testCases.TC_NewCustomerTest">
         <methods>
+          <include name="addNewCustomerTest"/>
           <include name="tearDown"/>
           <include name="initialSetup"/>
-          <include name="LoginTest"/>
           <include name="browserSetup"/>
         </methods>
-      </class> <!-- com.inetbank.testCases.TC_LoginTest -->
+      </class> <!-- com.inetbank.testCases.TC_NewCustomerTest -->
     </classes>
   </test> <!-- Regression Testing(failed) -->
 </suite> <!-- Failed suite [Practice Suite] -->
