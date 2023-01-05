@@ -1,12 +1,7 @@
 package com.inetbank.testCases;
-import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
-
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-
 import com.inetbank.base.BaseClass;
 import com.inetbank.pageObjects.LoginPage;
 import com.inetbank.utilities.XlUtils;

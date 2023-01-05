@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-26T15:00:21 IST" name="Practice Suite" finished-at="2022-12-26T15:01:06 IST" duration-ms="44448">
+  <suite started-at="2023-01-04T12:45:08 IST" name="Practice Suite" finished-at="2023-01-04T12:45:17 IST" duration-ms="8970">
     <groups>
     </groups>
-    <test started-at="2022-12-26T15:00:21 IST" name="Regression Testing" finished-at="2022-12-26T15:01:06 IST" duration-ms="44448">
-      <class name="com.inetbank.testCases.TC_LoginTest_1">
-        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:00:34 IST" name="initialSetup" finished-at="2022-12-26T15:00:34 IST" duration-ms="1" status="PASS">
+    <test started-at="2023-01-04T12:45:08 IST" name="Regression Testing" finished-at="2023-01-04T12:45:17 IST" duration-ms="8970">
+      <class name="com.inetbank.testCases.TC_NewCustomerTest">
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.inetbank.testCases.TC_NewCustomerTest@75d3a5e0]" started-at="2023-01-04T12:45:08 IST" name="initialSetup" finished-at="2023-01-04T12:45:09 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:00:35 IST" name="browserSetup" finished-at="2022-12-26T15:00:44 IST" duration-ms="9089" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_NewCustomerTest@75d3a5e0]" started-at="2023-01-04T12:45:09 IST" name="browserSetup" finished-at="2023-01-04T12:45:13 IST" duration-ms="4636" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,125 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:00:44 IST" name="loginTest" data-provider="LoginData" finished-at="2022-12-26T15:00:53 IST" duration-ms="8973" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr464953]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vyreqer]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="addNewCustomerTest()[pri:0, instance:com.inetbank.testCases.TC_NewCustomerTest@75d3a5e0]" started-at="2023-01-04T12:45:13 IST" name="addNewCustomerTest" finished-at="2023-01-04T12:45:17 IST" duration-ms="3761" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:00:53 IST" name="tearDown" finished-at="2022-12-26T15:00:54 IST" duration-ms="283" status="PASS">
+        </test-method> <!-- addNewCustomerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbank.testCases.TC_NewCustomerTest@75d3a5e0]" started-at="2023-01-04T12:45:17 IST" name="tearDown" finished-at="2023-01-04T12:45:17 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:00:54 IST" name="browserSetup" finished-at="2022-12-26T15:01:01 IST" duration-ms="7653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:01:01 IST" name="loginTest" data-provider="LoginData" finished-at="2022-12-26T15:01:05 IST" duration-ms="4121" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr4649531]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vyreqer1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbank.testCases.TC_LoginTest_1@d737b89]" started-at="2022-12-26T15:01:05 IST" name="tearDown" finished-at="2022-12-26T15:01:06 IST" duration-ms="384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbank.testCases.TC_LoginTest_1 -->
-      <class name="com.inetbank.testCases.TC_LoginTest">
-        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.inetbank.testCases.TC_LoginTest@79e4c792]" started-at="2022-12-26T15:00:21 IST" name="initialSetup" finished-at="2022-12-26T15:00:22 IST" duration-ms="341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.inetbank.testCases.TC_LoginTest@79e4c792]" started-at="2022-12-26T15:00:22 IST" name="browserSetup" finished-at="2022-12-26T15:00:33 IST" duration-ms="11107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.inetbank.testCases.TC_LoginTest@79e4c792]" started-at="2022-12-26T15:00:33 IST" name="LoginTest" finished-at="2022-12-26T15:00:34 IST" duration-ms="1358" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.inetbank.testCases.TC_LoginTest.LoginTest(TC_LoginTest.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbank.testCases.TC_LoginTest@79e4c792]" started-at="2022-12-26T15:00:34 IST" name="tearDown" finished-at="2022-12-26T15:00:34 IST" duration-ms="324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbank.testCases.TC_LoginTest -->
+      </class> <!-- com.inetbank.testCases.TC_NewCustomerTest -->
     </test> <!-- Regression Testing -->
   </suite> <!-- Practice Suite -->
 </testng-results>

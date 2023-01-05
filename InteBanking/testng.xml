@@ -9,8 +9,9 @@
 	<test name="Regression Testing">
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="com.inetbank.testCases.TC_LoginTest" />
-			<class name="com.inetbank.testCases.TC_LoginTest_1"></class>
+			<!-- <class name="com.inetbank.testCases.TC_LoginTest" />-->
+			<!-- <class name="com.inetbank.testCases.TC_LoginTest_1"></class>-->
+			<class name="com.inetbank.testCases.TC_NewCustomerTest"></class>
 		</classes>
 	</test>
 </suite>
